@@ -23,6 +23,11 @@ init_db()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
+if "GEMINI_API_KEY" in st.secrets:
+    api_key = st.secrets["GEMINI_API_KEY"]
+else:
+    api_key = os.getenv("GEMINI_API_KEY")
+
 LANGUAGE_OPTIONS = ["English", "ไทย"]
 
 CATEGORY_OPTIONS = [
