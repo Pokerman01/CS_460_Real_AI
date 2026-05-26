@@ -24,31 +24,30 @@ AI Smart Tax is a Streamlit web application that helps users organize receipts, 
 
 1. Clone this repository.
 
-'''
+``` 
   git clone <your-repository-url>
   cd CS_460_Real_AI 
-
-'''
+```
 
 2. Install the required packages.
 
-'''
+```
   pip install streamlit pandas plotly
-
-'''
+```
 
 3. Run the application.
 
-'''
+```
   streamlit run app.py
+```
 
-      or try if it not working properly 
-      
+or try if it not working properly 
+
+```
   python -m streamlit run app.py      
-
-      this command runs Streamlit through the active Python interpreter. When your system cannot find the standalone.
+```
+this command runs Streamlit through the active Python interpreter. When your system cannot find the standalone.
     
-'''
 
 ** Before running the command, make sure your terminal is in the correct project folder where app.py is located. If you run the command from the wrong path, Streamlit may not find app.py.
 
