@@ -55,15 +55,19 @@ this command runs Streamlit through the active Python interpreter. When your sys
 
 4. Project Structure
 
+```
 CS_460_Real_AI/
 ├── app.py          # Main router for landing page and dashboard
 ├── landing.py      # Landing page UI
 ├── dashboard.py    # Receipt scanner, verification, history, and analytics
 ├── database.py     # SQLite database functions
 └── README.md
-
+```
 
 ** Notes
 This project is a course prototype for smart receipt and tax organization. The current receipt analysis uses mock extracted data for demonstration purposes.
 
 If you want to use real receipt analysis, you can connect the app to your own AI/OCR API.
+
+
+
